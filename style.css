@@ -1,0 +1,19 @@
+header {
+  background: white;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+body {
+  background: #90EE90;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 18px;
+}

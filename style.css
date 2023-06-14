@@ -34,7 +34,7 @@ nav a {
   color: #90EE90;
   font-weight: bold;
   font-size: 24px;
-  text-decoration: none;
+
 }
 
 nav {
@@ -46,19 +46,25 @@ nav {
 main {
   background-color: #FFFFFF;
     border-radius: 95px;
-    margin-top: 60px;
+    margin-top: 5%;
+
 }
 
- .reciclagem {
-padding: 40px 40px 40px 40px;
-width: 550px;
-height: 450px;
-  border-radius: 95px;
+img {
+  padding: 40px 40px 40px 40px;
+  width: 550px;
+  height: 450px;
+    border-radius: 95px;
+    display: table-cell;
 }
+
+ul {
+  display: table-cell;
+}
+
 
 h2 {
-margin-left: 50%;
-  font-size: 50px;
   font-weight: bold;
   color: #008000;
+text-align: center;
 }

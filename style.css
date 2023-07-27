@@ -87,3 +87,10 @@ footer img {
  height: 20em;
  width: 20em;
 }
+
+@media screen and (max-width: 1916px) {
+  .fotos {
+    width:14em;
+    height: 14em;
+  }
+}

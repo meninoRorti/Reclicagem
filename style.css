@@ -47,7 +47,6 @@ main {
   background-color: #FFFFFF;
     border-radius: 95px;
     margin-top: 5%;
-
 }
 
 img {
@@ -68,4 +67,23 @@ h2 {
   font-weight: bold;
   color: #008000;
 text-align: center;
+font-size: 5em;
+}
+
+p {
+  text-align: center;
+  font-size: 3em;
+  padding: 1.5em;
+}
+
+footer {
+  background-color: #88CA5E;
+    border-radius: 2em;
+    position: relative;
+}
+
+footer img {
+  position: relative;
+ height: 20em;
+ width: 20em;
 }

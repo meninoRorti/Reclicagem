@@ -52,8 +52,8 @@ main {
 img {
   align-items: center;
   padding: 2.6em;
-  width: 34em;
-  height: 29em;
+  width: 550px;
+  height: 450px;
     border-radius: 95px;
     display: table-cell;
 }
@@ -77,12 +77,14 @@ p {
 }
 
 footer {
+
   background-color: #88CA5E;
     border-radius: 2em;
     position: relative;
 }
 
 footer img {
+
   position: relative;
  height: 20em;
  width: 20em;
@@ -90,43 +92,7 @@ footer img {
 
 @media screen and (max-width: 1916px) {
   .fotos {
-    width: 14em;
+    width:14em;
     height: 14em;
-  }
-}
-
-@media screen and (max-width: 361px) {
-
-  nav {
-    position: absolute;
-    top: 5em;
-    right: 1px;
-  }
-
-  nav a {
-  font-size: 8px;
-
-  }
-
-  nav li {
-    position: relative;
-    top: 3px;
-    padding: 1px;
-
-  }
-
-
-  .logo {
-    display: inline-block;
-    width: 8em;
-    height: 8em;
-  }
-
-
-  .fotos {
-    padding: 1.8em;
-    width: 3.5em;
-    height: 3.5em;
-    border-radius: 3em;
   }
 }

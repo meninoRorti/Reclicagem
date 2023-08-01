@@ -1,10 +1,10 @@
 header {
   background: white;
-  padding: 20px 20px 20px 20px;
+  padding: 2em;
   position: relative;
-  background: #FFFFFF;
   border-radius: 95px;
 }
+
 .logo {
 width: 230px;
 height: 230px;
@@ -47,16 +47,18 @@ main {
   background-color: #FFFFFF;
     border-radius: 95px;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-img {
+.fotos {
   align-items: center;
   padding: 2.6em;
-  width: 34em;
-  height: 29em;
-    border-radius: 95px;
-    display: table-cell;
+  width: 20em;
+  height: 16em;
+  border-radius: 5em;
+  display: inline-block;
 }
+
 
 ul {
   display: inline-flex;
@@ -88,30 +90,24 @@ footer img {
  width: 20em;
 }
 
-@media screen and (max-width: 1916px) {
-  .fotos {
-    width: 14em;
-    height: 14em;
-  }
-}
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 1200px) {
 
   nav {
     position: absolute;
-    top: 5em;
-    right: 1px;
+    top: 1.5em;
+    right: 1em;
   }
 
   nav a {
-  font-size: 8px;
-
+  font-size: 0.6em;
+  padding: 0.1em;
   }
 
   nav li {
     position: relative;
-    top: 3px;
-    padding: 1px;
+    top: 2.5px;
+    padding: 0.3em;
 
   }
 
@@ -125,8 +121,8 @@ footer img {
 
   .fotos {
     padding: 1.8em;
-    width: 3.5em;
-    height: 3.5em;
-    border-radius: 3em;
+    width: 15em;
+    height: 15em;
+    border-radius: 4em;
   }
 }

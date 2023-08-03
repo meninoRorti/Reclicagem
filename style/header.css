@@ -1,0 +1,39 @@
+header {
+  background: white;
+  padding: 2em;
+  position: relative;
+  border-radius: 95px;
+}
+
+.logo {
+width: 230px;
+height: 230px;
+padding-left: 30px;
+position: relative;
+}
+
+
+nav li {
+  display: inline;
+ margin: 1.5em 0 0 80px;
+  font-size: 45px;
+}
+
+nav a:hover {
+  color: #008000;
+  text-decoration: underline;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #90EE90;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+nav {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+}

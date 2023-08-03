@@ -1,0 +1,51 @@
+.motivos {
+  align-items: center;
+  margin: 2%;
+  width: 27%;
+  height: 3%;
+  border-radius: 4em;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1em;
+  border-color: green;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  nav {
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+  }
+
+  nav a {
+  font-size: 0.6em;
+  padding: 0.1em;
+  }
+
+  nav li {
+    position: relative;
+    padding: 0.3em;
+
+  }
+
+
+  .logo {
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+  }
+
+
+  .motivos {
+    margin: 2%;
+    width: 25%;
+    height: 3%;
+    border-radius: 4em;
+    border-style: solid;
+    border-width: 1em;
+    border-color: green;
+  }
+}

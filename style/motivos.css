@@ -14,30 +14,36 @@
 
 @media screen and (max-width: 1200px) {
 
-  nav {
-    position: absolute;
-    top: 1.5em;
-    right: 1em;
-  }
 
-  nav a {
-  font-size: 0.6em;
-  padding: 0.1em;
-  }
+      nav {
+        position: absolute;
+        top: 3.5em;
+        right: 1em;
+      }
 
-  nav li {
-    position: relative;
-    padding: 0.3em;
+      nav a {
+      font-size: 0.6em;
+      padding: 0.1em;
+      }
 
-  }
+      nav a:hover {
+        color: #008000;
+        text-decoration: underline;
+      }
+
+      nav li {
+        position: relative;
+        top: 2.5px;
+        padding: 0.3em;
+
+      }
 
 
-  .logo {
-    display: inline-block;
-    width: 8em;
-    height: 8em;
-  }
-
+      .logo {
+        display: inline-block;
+        width: 8em;
+        height: 8em;
+      }
 
   .motivos {
     margin: 2%;

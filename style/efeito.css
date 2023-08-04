@@ -1,0 +1,68 @@
+.efeito {
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+    margin: 3%;
+    width: 25%;
+    height: 3%;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+.efeito:hover {
+  transform: translateY(-20px);
+}
+
+.efeito::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(25deg, green, white);
+  border-radius: 1.2em;
+}
+
+.efeito::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(25deg, green, white);
+  filter: blur(30px);
+}
+
+.efeito span {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
+  bottom: 0.5em;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  border-radius: 1em;
+}
+
+.efeito span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.efeito .dento {
+  position: relative;
+  padding: 10px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

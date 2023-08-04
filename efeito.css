@@ -1,0 +1,72 @@
+.efeito {
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+    margin: 3%;
+    width: 25%;
+    height: 3%;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+.efeito:hover {
+  transform: translateY(-40px);
+}
+
+.mefeitos {
+  transition: 0.2s;
+  cursor: pointer;
+    margin: 3%;
+    width: 23%;
+    height: 3%;
+    border-radius: 4em;
+    display: inline-block;
+    border-style: solid;
+    border-color: green;
+    border-width: 1em;
+}
+
+.mefeitos:hover {
+  transform: translateY(-40px);
+}
+
+.befeitos {
+  color: black;
+  transition: 0.2s;
+  cursor: pointer;
+    margin: 5%;
+    width: 32%;
+    height: 3%;
+    border-radius: 30%;
+    display: inline-block;
+
+}
+
+.befeitos:hover {
+  transform: translateY(-40px);
+  margin: 5%;
+  width: 52%;
+  height: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+  .mefeitos {
+    transition: 0.2s;
+    cursor: pointer;
+      margin: 3%;
+      width: 22%;
+      height: 3%;
+      border-radius: 4em;
+      display: inline-block;
+      border-style: solid;
+      border-color: green;
+      border-width: 1em;
+  }
+
+  .mefeitos:hover {
+    transform: translateY(-40px);
+  }
+  }
+}
